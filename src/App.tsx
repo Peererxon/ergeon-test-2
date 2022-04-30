@@ -1,11 +1,10 @@
-import { Testing } from './components/Testing';
+import './App.css'
+import { Input } from './components/Input';
 
 function App() {
   return (
     <div className="App">
-      <Testing>
-        <h1>asdas</h1>
-      </Testing>
+      <Input />
     </div>
   );
 }
