@@ -54,7 +54,7 @@ export const Input = () => {
           options={options}
           sx={{ width: 300 }}
             renderInput={(params) => (
-              <TextField className={ styles.inputField } error={hasError} type="number" {...params} label="California zip Codes" helperText='Only number allowed' />
+              <TextField className={ styles.inputField } error={hasError} {...params} label="California zip Codes" helperText='Only number allowed' />
             )}
         />
       </Grid>
